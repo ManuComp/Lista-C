@@ -17,4 +17,4 @@ int longitud_recursivo(struct node_struct* n);
 
 int max(struct node_struct* n);
 
-//struct node_struct* inversa(struct node_struct* n);
+struct node_struct* inversa(struct node_struct* n);

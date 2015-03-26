@@ -1,9 +1,9 @@
-ArbolTest: ArbolTest.o arbol.o
-	gcc -o ArbolTest ArbolTest.o arbol.o
+testList: testList.o list.o
+	gcc -o testList testList.o list.o
 	
 
-ArbolTest.o: ArbolTest.c arbol.h
-	gcc -c -o ArbolTest.o ArbolTest.c
+testList.o: testList.c list.h
+	gcc -c -o testList.o testList.c
 
-arbol.o: arbol.h arbol.c
-	gcc -c -o arbol.o arbol.c
+list.o: list.h list.c
+	gcc -c -o list.o list.c
